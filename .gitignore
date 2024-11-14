@@ -1,0 +1,174 @@
+### Angular ###
+## Angular ##
+# compiled output
+dist/
+tmp/
+app/**/*.js
+app/**/*.js.map
+
+# dependencies
+node_modules/
+bower_components/
+
+# IDEs and editors
+.idea/
+
+# misc
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log/
+npm-debug.log
+testem.log
+typings/
+.angular/
+
+# e2e
+e2e/*.js
+e2e/*.map
+
+# System Files
+.DS_Store/
+
+### NextJS ###
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+### NuxtJS ###
+dist
+.nuxt
+.nuxt-*
+.output
+.gen
+
+# Node dependencies
+node_modules
+
+# System files
+*.log
+
+### NWjs ###
+# gitignore template for NW.js projects
+
+# Seen in standard and sdk versions
+credits.html
+locales/
+libEGL.dll
+libGLEv2.dll
+node.dll
+nw.dll
+nw.exe
+natives_blob.bin
+nw_100_percent.pak
+nw_200_percent.pak
+nw_elf.dll
+snapshot_blob.bin
+resources.pak
+
+# Seen only in standard
+d3dcompiler_47.dll
+ffmpeg.dll
+icudtl.dat
+
+# Seen only in sdk
+pnacl/
+chromedriver.exe
+nacl_irt_x86_64.nexe
+nwjc.exe
+payload.exe
+
+### react ###
+.DS_*
+logs
+**/*.backup.*
+**/*.back.*
+
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Local History for Visual Studio Code
+.history/
+
+# Built Visual Studio Code Extensions
+*.vsix
+
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
+
+### Vuejs ###
+# Recommended template: Node.gitignore
+
+yarn-error.log
+
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
