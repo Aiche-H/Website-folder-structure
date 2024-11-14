@@ -2,78 +2,34 @@
 
 This outlines a well-organized folder structure for managing websites. This approach promotes code reusability, simplifies maintenance, and enhances project clarity.
 
-```
-
-global/
-    css/
-        global.css
-        header.css
-    javascript/
-        global.js
-        header.js
-    data/
-        ...
-    images/
-        ...
-pages/
-    index/
-        local-css/
-            ...
-        local-javascript/
-            ...
-        data/
-            ...
-    about/
-        local-css/
-            about.css
-        local-javascript/
-            about.js
-        data/
-            ...
-        images/
-            ...
-        about.html
-resources/
-    css/
-        ...
-    javascript/
-        ...
-    fonts/
-        font.tff
-        font.woff
-.gitignore
-index.html
-README.md
-
-```
-
 ## **global**
 
 * **css:** Contains global CSS stylesheets that apply to the entire website.
+* **javascript:** Contains global JavaScript files that are used across multiple pages.
 * **data:** Contains data files (e.g., JSON) for reusable components or modules.
 * **images:** Stores images used across multiple pages or reusable components.
-* **javascript:** Contains global JavaScript files that are used across multiple pages.
 
 ## **pages**
 
-* **contact_form:** This directory holds specific files related to the contact form page, including:
-  * **data:** Contains data files (e.g., JSON) for the contact form.
-  * **local-css:** Contains CSS stylesheets specific to the contact form page.
-  * **local-javascript:** Contains JavaScript files specific to the contact form page.
-  * **form.html:** The main HTML file for the contact form page.
+this makes it easy to maintain as every page has clear structure.
 
-## **index**
+* **about:**
+  * **css-local:** Contains CSS stylesheets specific to the contact about page.
+  * **js-local:** Contains JavaScript files specific to the contact about page.
+  * **data-local:** Contains localized data for the about page.
+  * **about.html:** The main HTML file for the contact form page.
 
-* **data:** Contains data files (e.g., JSON) for the index page.
-* **local-css:** Contains CSS stylesheets specific to the index page.
-* **local-images:** Stores images used specifically on the index page.
-* **local-javascript:** Contains JavaScript files specific to the index page.
+* **index**
+  * **css-local:** Contains CSS stylesheets specific to the index page.
+  * **js-local:** Contains JavaScript files specific to the index page.
+  * **data-local:** Contains data files (e.g., JSON) for the index page.
+  * **images-local:** Stores images used specifically on the index page.
 
 ## **resources**
 
 * **css:** Contains CSS stylesheets for librarys or frameworks.
-* **fonts:** Stores custom fonts used throughout the project.
 * **javascript:** Contains JavaScript files for librarys or frameworks.
+* **fonts:** Stores custom fonts used throughout the project.
 
 ## **Additional Files**
 
@@ -92,58 +48,8 @@ By adopting this structure, you'll enhance your static website development exper
 
 ## **for a project that needs even more organizing you can use numbers easily to keep everything in order**
 
-This proposes a meticulous folder structure for websites, enhancing organization and maintainability.
-
 **Core Folder Structure:**
 
-```
-
-00-global/
-    01-css/
-        01-01-global.css
-        01-02-header.css
-        01-03-footer.css
-    02-javascript/
-        02-01-global.js
-        02-02-header.js
-        01-03-footer.js
-    03-data/
-        ...
-    04-images/
-        ...
-01-pages/
-    01-index/
-        01-css/
-            01-01-index.css
-        02-javascript/
-            02-01-index.js
-        03-data/
-            ...
-        04-images/
-            ...
-    02-about/
-        01-css/
-            01-01-about.css
-        02-javascript/
-            02-01-about.js
-        03-data/
-            ...
-        04-images/
-            ...
-        05-about.html
-02-resources/
-    01-css/
-        ...
-    02-javascript/
-        ...
-    03-fonts/
-        02-01-font.tff
-        02-02-font.woff
-
-.gitignore
-index.html
-README.md
-
-```
+![Image of the structure](./00-global/04-images/structure.png)
 
 **this way you can have even more organized folder structure and always keep everything in the same place**
